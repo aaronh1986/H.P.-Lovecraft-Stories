@@ -1,0 +1,40 @@
+/*Navbar*/
+.navbar .navbar-brand {
+    color: rgb(241, 42, 42) !important;
+}
+
+nav .navbar-nav li a {
+    color: rgb(241, 42, 42) !important;
+    font-size: 23px;
+} 
+
+.navbar .navbar-brand:hover {
+    color: rgb(124, 4, 4) !important;
+} 
+
+nav .navbar-nav li a:hover {
+    color: rgb(124, 4, 4) !important;
+}
+
+/*Media-Query*/
+
+@media only screen and (max-width: 290px) {
+    nav h2 {
+        font-size: 18px;
+    }
+
+    .navbar-toggler-icon {
+    font-size: 20px;
+}
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 350px){
+      nav h2 {
+        font-size: 21px;
+    }
+
+    .navbar-toggler-icon {
+    font-size: 20px;
+    }
+}
