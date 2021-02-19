@@ -1,3 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@700&family=Syncopate:wght@400;700&display=swap');
+/*Fonts*/
+h1, h2 {
+    font-family: "Syncopate", sans-serif;
+    text-transform: uppercase;
+}
+
+.navbar h2 {
+    padding-top: 10px;
+    font-size: 120%;
+    
+}
+
+p {
+    font-family: "Shippori Mincho B1", sans-serif;
+}
+
+.btn {
+    font-family: "Shippori Mincho B1", sans-serif;
+}
+
+.navbar, .nav-link {
+    font-family: "Syncopate", sans-serif;
+    text-transform: uppercase;
+}
 /*Navbar*/
 .navbar {
     background-color: #000 !important;
@@ -57,7 +82,7 @@ nav .navbar-nav li a:hover {
     font-size: 130%;
     width: 300px;
     height: 300px;
-    padding: 40px, 0, 0, 10px;
+    padding: 0px, 0px, 0px, 0px;
     background-color: rgb(241, 42, 42, 0.7);
     top: 290px;
     right:600px;
@@ -111,6 +136,7 @@ footer {
     background-color: #000;
     color: rgb(241, 42, 42);
     border: 2px solid #000;
+   
 }
 
 .btn:hover {
