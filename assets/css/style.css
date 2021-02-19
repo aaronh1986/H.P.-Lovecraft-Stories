@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@700&family=Syncopate:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@700&family=Pirata+One&display=swap');
+
 /*Fonts*/
 h1, h2 {
-    font-family: "Syncopate", sans-serif;
+    font-family: "Pirata one", sans-serif;
     text-transform: uppercase;
 }
 
 .navbar h2 {
     padding-top: 10px;
-    font-size: 120%;
-    
+    font-size: 150%;
+    letter-spacing: 3px;
 }
 
 p {
@@ -20,10 +21,21 @@ p {
 }
 
 .navbar, .nav-link {
-    font-family: "Syncopate", sans-serif;
-    text-transform: uppercase;
-}
+    font-family: "Shippori Mincho B1", sans-serif;
+    font-size: 150%;
+    letter-spacing: 3px;
+    }
+
+.active {
+        border-bottom: 1px solid rgb(241, 42, 42);
+    }
+    
+.active:hover {
+    border-bottom: 1px solid rgb(124, 4, 4);
+   }
+
 /*Navbar*/
+
 .navbar {
     background-color: #000 !important;
 }
@@ -71,14 +83,13 @@ nav .navbar-nav li a:hover {
 #cover-text, #cover-text h2 p  {
     color: #000;
     text-align: center;
-    padding-top: 35px;
+    padding-top: 63px;
 }
 
 #cover-text {
     font-size: 130%;
     width: 300px;
     height: 300px;
-    padding: 0px, 0px, 0px, 0px;
     background-color: rgb(241, 42, 42, 0.7);
     top: 290px;
     right:600px;
