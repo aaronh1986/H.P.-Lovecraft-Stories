@@ -37,10 +37,6 @@ nav .navbar-nav li a {
     font-size: 23px;
 } 
 
-.navbar .navbar-brand:hover {
-    color: rgb(124, 4, 4) !important;
-} 
-
 nav .navbar-nav li a:hover {
     color: rgb(124, 4, 4) !important;
 }
@@ -88,6 +84,8 @@ nav .navbar-nav li a:hover {
     right:600px;
     position: absolute;
     border-radius: 50px;
+    border: 2px solid #000;
+ 
 }
 
 /*Footer*/
