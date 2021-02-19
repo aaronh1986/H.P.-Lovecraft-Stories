@@ -1,4 +1,8 @@
 /*Navbar*/
+.navbar {
+    background-color: #000 !important;
+}
+
 .navbar .navbar-brand {
     color: rgb(241, 42, 42) !important;
 }
@@ -60,6 +64,25 @@ nav .navbar-nav li a:hover {
     position: absolute;
     border-radius: 50px;
 }
+
+/*Footer*/
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: #000;
+    position: relative;
+}
+
+.company-info p {
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    margin-bottom: 0;
+    color: rgb(241, 42, 42);
+    text-align: center;
+}
+
+
 /*Media-Query*/
 
 @media only screen and (max-width: 290px) {
