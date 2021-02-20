@@ -60,7 +60,7 @@ nav .navbar-nav li a:hover {
     background: url("https://vignette.wikia.nocookie.net/villains/images/7/72/Lovecraft-cthulhu.jpg/revision/latest?cb=20151128095138") no-repeat center center;
     background-size: auto;
     animation-name: cthulu-zoom;
-    animation-duration: 20s;
+    animation-duration: 30s;
     animation-fill-mode: forwards;
 }
 
