@@ -105,37 +105,134 @@ footer {
     position: relative;
 }
 
-.company-info p {
-    position: absolute;
-    bottom: 0;
-    left: 40%;
-    margin-bottom: 0;
-    color: rgb(241, 42, 42);
-    text-align: center;
-}
 
 
 /*Media-Query*/
 
-@media only screen and (max-width: 290px) {
-    nav h2 {
-        font-size: 18px;
+@media only screen and (min-width: 280px) and (max-width: 300px){ 
+    nav .nav-brand  {
+        letter-spacing: 0.3px;
+        font-size: 23px;
     }
 
     .navbar-toggler-icon {
-    font-size: 20px;
+    font-size: 14px;
 }
 
+@keyframes cthulu-zoom {
+    from {
+       transform: scale(1);
+    }
+    to {
+       transform: scale(1);
+    }
 }
-
-@media only screen and (min-width: 320px) and (max-width: 350px){
-      nav h2 {
-        font-size: 21px;
+}
+@media only screen and (min-width: 320px) and (max-width: 340px){
+      nav .nav-brand {
+        font-size: 24px;
+        letter-spacing: 1.4px;
     }
 
     .navbar-toggler-icon {
-    font-size: 20px;
+    font-size: 18px;
     }
+
+    @keyframes cthulu-zoom {
+    from {
+       transform: scale(1);
+    }
+    to {
+       transform: scale(1);
+    }
+}
+}
+
+@media only screen and (min-width: 360px) and (max-width: 370px){
+    nav .nav-brand  {
+        letter-spacing: 2.5px;
+        font-size: 26px;
+    }
+
+    .navbar-toggler-icon {
+    font-size: 19px;
+}
+
+@keyframes cthulu-zoom {
+    from {
+       transform: scale(1);
+    }
+    to {
+       transform: scale(1);
+    }
+}
+}
+
+@media only screen and (min-width: 375px) and (max-width: 400px){
+    nav .nav-brand {
+        letter-spacing: 1px;
+    }
+
+    @keyframes cthulu-zoom {
+    from {
+       transform: scale(1);
+    }
+    to {
+       transform: scale(1);
+    }
+}
+}
+
+@media only screen and (min-width: 411px) and (max-width: 430px) {
+   nav .nav-brand {letter-spacing: 2px;
+}
+
+.navbar-toggler-icon {
+    font-size: 25px;
+}
+
+@keyframes cthulu-zoom {
+    from {
+       transform: scale(1);
+    }
+    to {
+       transform: scale(1);
+    }
+}
+}
+
+@media only screen and (min-width: 540px) and (max-width: 580px){
+.navbar-toggler-icon {
+    font-size: 30px;
+}
+
+@keyframes cthulu-zoom {
+    from {
+       transform: scale(1);
+    }
+    to {
+       transform: scale(1);
+    }
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 800px) {
+    nav .nav-brand {
+        letter-spacing: 3px;
+    }
+
+    .navbar-toggler-icon {
+    font-size: 35px;
+}
+
+@keyframes cthulu-zoom {
+    from {
+       transform: scale(1);
+    }
+    to {
+       transform: scale(1);
+    }
+}
 }
 
 /*Buttons*/
