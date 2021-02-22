@@ -110,20 +110,23 @@ nav .navbar-nav li a:hover {
 /*Footer*/
 
 footer {
-    height: 90px;
+    height: 100px;
     width: 100%;
     background-color: #000;
 }
  
 .footer-text h2 {
-  margin-left: 51px;
-  margin-top: 20px;
+  margin-left: 0px; /*51px and 20px*/
+  margin-top: 10px;
   color: rgb(241, 42, 42, 0.5);
+  display: flex;
+  justify-content: space-around;
 }
 
 .copyright {
     text-align: center;
     color: rgb(241, 42, 42, 0.5);
+    margin-top: 5px;
 }
 
 /*Media-Query*/
