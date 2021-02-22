@@ -110,11 +110,22 @@ nav .navbar-nav li a:hover {
 /*Footer*/
 
 footer {
-    height: 150px;
+    height: 90px;
     width: 100%;
     background-color: #000;
 }
  
+.footer-text h2 {
+  margin-left: 51px;
+  margin-top: 20px;
+  color: rgb(241, 42, 42, 0.5);
+}
+
+.copyright {
+    text-align: center;
+    color: rgb(241, 42, 42, 0.5);
+}
+
 /*Media-Query*/
 
 @media only screen and (min-width: 280px) and (max-width: 300px){ 
