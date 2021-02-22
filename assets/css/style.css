@@ -26,14 +26,6 @@ p {
     letter-spacing: 3px;
     }
 
-.active {
-        border-bottom: 1px solid rgb(241, 42, 42);
-    }
-    
-.active:hover {
-    border-bottom: 1px solid rgb(124, 4, 4);
-   }
-
 /*Navbar*/
 
 .navbar {
@@ -52,6 +44,14 @@ nav .navbar-nav li a {
 nav .navbar-nav li a:hover {
     color: rgb(124, 4, 4) !important;
 }
+
+.active {
+        border-bottom: 1px solid rgb(241, 42, 42);
+    }
+    
+.active:hover {
+    border-bottom: 1px solid rgb(124, 4, 4);
+   }
 
 /*Hero image*/
 #hero-image {
@@ -124,12 +124,12 @@ footer {
 #cover-text {
     width: 250px;
     height: 250px;
-    background-color: rgb(241, 42, 42, 0.85);
+    background-color: rgba(0, 0, 0, 0.85);
     top: 155px;
     right:16px;
     position: absolute;
     border-radius: 50px;
-    border: 1px solid #000;
+    border: 1px solid rgb(241, 42, 42, 0.85);
 }
 
 #hero-image {
@@ -141,11 +141,30 @@ footer {
 
 #cover-text h2 {
     font-size: 27px;
+    color: rgb(241, 42, 42, 0.85);
 }
 
 #cover-text p {
-    font-size: 19px;
+    font-size: 18.3px;
+    color: rgb(241, 42, 42, 0.85);
 }
+.btn {
+    border: 1px solid rgb(241, 42, 42, 0.85) !important;
+    background-color: rgba(0, 0, 0);
+    color: rgb(241, 42, 42, 0.85);
+}
+
+.active {
+   border-bottom: none;
+}
+
+.active:hover{ 
+    border-bottom: none;
+}
+
+nav .navbar-nav li a {
+    font-size: 20px;
+} 
 
 @keyframes cthulu-zoom {
     from {
