@@ -129,7 +129,7 @@ footer {
     right:16px;
     position: absolute;
     border-radius: 50px;
-    border: 1px solid rgb(241, 42, 42, 0.85);
+    border: 1px solid rgb(241, 42, 42, 0.5);
 }
 
 #hero-image {
