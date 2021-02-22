@@ -34,24 +34,24 @@ p {
 }
 
 .navbar .navbar-brand {
-    color: rgb(241, 42, 42) !important;
+    color: rgb(241, 42, 42, 0.7) !important;
 }
 
 nav .navbar-nav li a {
-    color: rgb(241, 42, 42) !important;
+    color: rgb(241, 42, 42, 0.7) !important;
     font-size: 23px;
 } 
 
 nav .navbar-nav li a:hover {
-    color: rgb(124, 4, 4) !important;
+    color: rgb(241, 42, 42)!important;
 }
 
 .active {
-        border-bottom: 1px solid rgb(241, 42, 42);
+        border-bottom: 1px solid rgb(241, 42, 42, 0.7);
     }
     
 .active:hover {
-    border-bottom: 1px solid rgb(124, 4, 4);
+    border-bottom: 1px solid rgb(241, 42, 42);
    }
 
 /*Hero image*/
